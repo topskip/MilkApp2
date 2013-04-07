@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">MilkApp</string>
+    <string name="menu_settings">Menue</string>
+    <string name="title_activity_main">MilkApp</string>
+
+</resources>

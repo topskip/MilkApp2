@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<link href="styles/mystyles.css" type="text/css" rel="stylesheet" />
+    	<title>MPR BW-App</title>
+
+    	<script type="text/javascript" charset="utf-8" src="cordova-2.4.0.js"></script>
+    	<script type="text/JavaScript" src="jquery-1.9.1.min.js"></script>
+    	<script type="text/JavaScript" src="jquery.mobile-1.2.0.min.js"></script>
+    	<script type="text/javascript" charset="utf-8" src="PushNotification.js"></script>
+    	<script type="text/javascript" charset="utf-8" src="main.js"></script>
+    	<script type="text/javascript" charset="utf-8" src="texte.js"></script>
+    	<script type="text/javascript" charset="utf-8">
+    	    HTTP_GET_VARS=new Array();
+    	    Values = new Array();
+			strGET=document.location.search.substr(1,document.location.search.length);
+			if(strGET!='') {
+			    gArr=strGET.split('&');
+			    for(i=0;i<gArr.length;++i) {
+			    	v='';vArr=gArr[i].split('=');
+			    	Values[i] = vArr[1];
+			    	if(vArr.length>1){v=vArr[i];}
+			        HTTP_GET_VARS[unescape(vArr[0])]=unescape(v);
+			    }
+		    }
+			 
+			function getNotifystart()
+			{
+			  return Values[0]; //HTTP_GET_VARS[v];
+			}
+			function getIMEI(){return Values[1];}
+    	</script>
+
+	</head>
+	<script>
+		document.addEventListener("deviceready", onDeviceReady, false);
+	</script>
+	<body>
+ 		<header id=company></header>
+		<div id="middle-area">
+    	    <div id="tab-area">
+    	    
+    	    </div>
+    	    <div id="flaggen">
+ 		        
+ 		        <H1 id="status">Language</H1>
+ 		        <p>
+ 		        <img class="fahne" src="deutschland.png" alt="deutsch" ontouchstart="languageChange(0);"/>
+ 		        <img class="fahne" src="tschechien.png" alt="tschechich" ontouchstart="languageChange(1);" />
+ 		        <img class="fahne" src="polen.png" alt="polnisch" ontouchstart="languageChange(2);"/>
+ 		        </p>
+    	    </div>
+    	    
+    	    <div id="input_div">
+                <H1 id="pin">Pin:</H1>
+                <input name="" type="number" class="input" placeholder="123456" />
+                <input type="button" value="Anmelden" class="anmelden" onclick="anmelden()" />
+            </div>
+        </div>
+        
+        
+      	<ul id="footer">
+    		<li><a href="#" ontouchstart="updateData();">Upd</a></li>
+			<li><a href="#" ontouchstart="changeLanguage();">Sprache</a></li>
+			<li><a href="#" ontouchstart="changeText();">Sonder</a></li>
+			<li><a href="tel:0561713235">Betr.</a></li>
+			<li><a href="#" ontouchstart="reset();">G&uuml;te</a></li>
+    	</ul>
+	</body>
+</html>

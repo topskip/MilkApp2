@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<link href="styles/style.css" type="text/css" rel="stylesheet" />
+    	<title>Milch-App MPR Bayern</title>
+
+    	<script type="text/javascript" charset="utf-8" src="cordova-2.4.0.js"></script>
+    	<script type="text/JavaScript" src="jquery-1.9.1.min.js"></script>
+    	<script type="text/JavaScript" src="jquery.mobile-1.2.0.min.js"></script>
+    	<script type="text/javascript" charset="utf-8" src="PushNotification.js"></script>
+    	<script type="text/javascript" charset="utf-8" src="main.js"></script>
+    	<script type="text/javascript" charset="utf-8">
+			HTTP_GET_VARS=new Array();
+			strGET=document.location.search.substr(1,document.location.search.length);
+			if(strGET!='') {
+			    alert(strGET);
+			    gArr=strGET.split('&');
+			    for(i=0;i<gArr.length;++i) {
+			        v='';vArr=gArr[i].split('=');
+			        if(vArr.length>1){v=vArr[1];}
+			        HTTP_GET_VARS[unescape(vArr[0])]=unescape(v);
+			    }
+		    }
+			 
+			function GET(v)
+			{
+			  if(!HTTP_GET_VARS[v]){return 'undefined';}
+			  return HTTP_GET_VARS[v];
+			}
+    	</script>
+	</head>
+	<script>
+		document.addEventListener("deviceready", onDeviceReady, false);
+	</script>
+	<body>
+ 		<header>MPR Bayern Milk-App</header>
+		<div id="tab-area">
+    	    <div id="flaggen">
+ 		        <H1 id="status">Language</H1>
+ 		        <p>
+ 		        <img src="deutschland.png" alt="Deutschland" onclick="languageChange(0);"/>
+ 		        <img src="tschechien.png" alt="Deutschland" onclick="languageChange(1);" />
+ 		        </p>
+ 		        <p>
+ 		        <img src="oesterreich.png" alt="Deutschland" onclick="languageChange(2);"/>
+ 		        <img src="polen.png" alt="Polen" onclick="languageChange(3);"/>
+ 		        </p>
+    	    </div>
+    	    
+    	    <div id="input_div">
+                
+                <H1 id="pin">Pincode:</H1>
+                <input name="" type="password" class="input" placeholder="******" />
+                <input type="button" value="Anmelden" class="anmelden" onclick="anmelden()" />
+            </div>
+        </div>
+        
+        
+      	<ul id="footer">
+    		<li><a href="#" onclick="updateData();">Upd</a></li>
+			<li><a href="#" onclick="changeHeader();">Msg</a></li>
+			<li><a href="#" onclick="changeText();">Sonder</a></li>
+			<li><a href="#" onclick="changeText();">Betr.</a></li>
+			<li><a href="#" onclick="changeText();">G&uuml;te</a></li>
+    	</ul>
+	</body>
+</html>

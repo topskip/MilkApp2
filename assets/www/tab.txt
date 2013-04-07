@@ -1,0 +1,166 @@
+<table>
+  <tr>
+    <th>Datum</th>
+    <th>Fett [%]</th>
+    <th>Eiweiﬂ [%]</th>
+    <th>Zellen [Tsd]</th>
+    <th>Keime [Tsd]</th>
+    <th>Gefrier [C]</th>
+    <th>Laktose [%]</th>
+    <th>Harnst.[mg/l]</th>
+    <th>Hemmst.</th>
+    <th>Bezeichnung</th>
+  </tr>
+   
+  <tr>
+    <td class = "date">28.01.</td>
+    <td class = "green">4.38</th>
+    <td class = "green">3.52</th>
+    <td class = "green">0136</th>
+    <td class = "green">010</th>
+    <td class = "green">-0,527</th>
+    <td class = "green">4.89</th>
+    <td class = "green">179</th>
+    <td class = "green">Negativ</th>
+  </tr>
+
+  <tr>
+    <td class = "date">28.01.</td>
+    <td class = "green">4.34</th>
+    <td class = "green">5.24</th>
+    <td class = "green">0136</th>
+    <td class = "green">010</th>
+    <td class = "green">-0,527</th>
+    <td class = "green">4.89</th>
+    <td class = "green">179</th>
+    <td class = "red">Positiv</th>
+  </tr>
+   <tr>
+    <td class = "date">28.01.</td>
+    <td class = "green">4.35</th>
+    <td class = "green">5.25</th>
+    <td class = "green">0136</th>
+    <td class = "green">010</th>
+    <td class = "green">-0,527</th>
+    <td class = "green">4.89</th>
+    <td class = "green">179</th>
+    <td class = "green">Negativ</th>
+  </tr>
+
+  <tr>
+    <td class = "date">28.01.</td>
+    <td class = "green">4.36</th>
+    <td class = "green">5.26</th>
+    <td class = "green">0136</th>
+    <td class = "green">010</th>
+    <td class = "green">-0,527</th>
+    <td class = "green">4.89</th>
+    <td class = "green">179</th>
+    <td class = "red">Positiv</th>
+  </tr>
+   <tr>
+    <td class = "date">28.01.</td>
+    <td class = "green">4.37</th>
+    <td class = "green">5.27</th>
+    <td class = "green">0136</th>
+    <td class = "green">010</th>
+    <td class = "green">-0,527</th>
+    <td class = "green">4.89</th>
+    <td class = "green">179</th>
+    <td class = "green">Negativ</th>
+  </tr>
+
+  <tr>
+    <td class = "date">28.01.</td>
+    <td class = "green">4.38</th>
+    <td class = "green">5.28</th>
+    <td class = "green">0136</th>
+    <td class = "green"></th>
+    <td class = "green">-0,527</th>
+    <td class = "green">4.89</th>
+    <td class = "green">179</th>
+    <td class = "red">Positiv</th>
+  </tr>  
+   <tr>
+    <td class = "date">28.01.</td>
+    <td class = "green">4.38</th>
+    <td class = "green">3.92</th>
+    <td class = "green">0136</th>
+    <td class = "green"></th>
+    <td class = "green">-0,527</th>
+    <td class = "green">4.89</th>
+    <td class = "green">179</th>
+    <td class = "green">Negativ</th>
+  </tr>
+
+  <tr>
+    <td class = "date">28.01.</td>
+    <td class = "green">4.35</th>
+    <td class = "green">3.85</th>
+    <td class = "green">0136</th>
+    <td class = "green">010</th>
+    <td class = "green">-0,527</th>
+    <td class = "green">4.89</th>
+    <td class = "green">179</th>
+    <td class = "red">Positiv</th>
+  </tr>  
+<tr>
+    <td class = "date">28.01.</td>
+    <td class = "green">4.36</th>
+    <td class = "green">5.26</th>
+    <td class = "green">0136</th>
+    <td class = "green">010</th>
+    <td class = "green">-0,527</th>
+    <td class = "green">4.89</th>
+    <td class = "green">179</th>
+    <td class = "red">Positiv</th>
+  </tr>
+   <tr>
+    <td class = "date">28.01.</td>
+    <td class = "green">4.37</th>
+    <td class = "green">5.27</th>
+    <td class = "green">0136</th>
+    <td class = "green">010</th>
+    <td class = "green">-0,527</th>
+    <td class = "green">4.89</th>
+    <td class = "green">179</th>
+    <td class = "green">Negativ</th>
+  </tr>
+
+  <tr>
+    <td class = "date">28.01.</td>
+    <td class = "green">4.38</th>
+    <td class = "green">5.28</th>
+    <td class = "green">0136</th>
+    <td class = "green"></th>
+    <td class = "green">-0,527</th>
+    <td class = "green">4.89</th>
+    <td class = "green">179</th>
+    <td class = "red">Positiv</th>
+  </tr>  
+   <tr>
+    <td class = "date">28.01.</td>
+    <td class = "green">4.38</th>
+    <td class = "green">3.92</th>
+    <td class = "green">0136</th>
+    <td class = "green"></th>
+    <td class = "green">-0,527</th>
+    <td class = "green">4.89</th>
+    <td class = "green">179</th>
+    <td class = "green">Negativ</th>
+  </tr>
+
+  <tr>
+    <td class = "date">28.01.</td>
+    <td class = "green">4.35</th>
+    <td class = "green">3.85</th>
+    <td class = "green">0136</th>
+    <td class = "green">010</th>
+    <td class = "green">-0,527</th>
+    <td class = "green">4.89</th>
+    <td class = "green">179</th>
+    <td class = "red">Positiv</th>
+  </tr>    
+  
+  </table>
+  

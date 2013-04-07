@@ -1,0 +1,52 @@
+/**
+ * 
+ */
+ 
+ var texte = [
+		{
+			"company":"DMK",
+			"gCap":"G&uuml;tedaten",
+			"dat":"Datum",
+			"menge":"Milchmenge",
+			"fett":"Fett",
+			"eiweis":"Eiw.",
+			"gefr":"Gefrier",
+			"harn":"Harn",
+			"laktose":"Laktose",
+			"hemm":"Hemmstoff",
+			"neg":"neg",
+			"pos":"pos",
+			"keime":"Keime",
+			"zellen":"Zellen"
+		},
+		{
+			"gCap":"Předběžné údaje kvality",
+			"dat":"Datum",
+			"menge":"Mléko",
+			"fett":"TUK",
+			"eiweis":"CB",
+			"gefr":"BTM",
+			"harn":"UREA",
+			"laktose":"Laktóza",
+			"hemm":"RIL",
+			"neg":"neg",
+			"pos":"pos",
+			"keime":"CPM",
+			"zellen":"PSB"
+		},
+		{
+			"gCap":"Tymczasowy jakośći danych",
+			"dat":"Data",
+			"menge":"Mleko",
+			"fett":"TI",
+			"eiweis":"BI",
+			"gefr":"PZ",
+			"harn":"MOC",
+			"laktose":"Laktoza",
+			"hemm":"Ham",
+			"neg":"neg",
+			"pos":"pos",
+			"keime":"OLD",
+			"zellen":"LKS"
+		},
+	];
